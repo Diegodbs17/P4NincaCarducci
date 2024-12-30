@@ -266,10 +266,6 @@ input[type="submit"] {
 	margin-bottom: 10px;
 }
 
-.social-link-footer {
-	font-size: 25px;
-}
-
 .copyright {
 	text-align: center;
 	margin-top: 20px;
@@ -347,6 +343,13 @@ input[type="submit"] {
 		bottom: 0;
 		right: 0;
 		z-index: -1;
+	}
+	.footer-content  {
+		flex-direction: column;
+	}
+	.col-footer {
+		margin-top: 25px;
+		min-width: 100%;
 	}
 }
 
