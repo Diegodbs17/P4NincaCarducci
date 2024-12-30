@@ -244,6 +244,41 @@ input[type="submit"] {
 	padding: .5em 1em
 }
 
+.footer-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 30px;
+}
+
+.col-footer {
+	text-align: center;
+	border: 1px solid #796901;
+	border-radius: 10px;
+	min-height: 135px;
+	min-width: 250px;
+	place-content: center;
+	padding: 10px 0;
+}
+
+.col-footer p {
+	margin-bottom: 0;
+}
+
+.col-footer i {
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+
+.social-link-footer {
+	font-size: 25px;
+}
+
+.copyright {
+	text-align: center;
+	margin-top: 20px;
+}
+
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;
